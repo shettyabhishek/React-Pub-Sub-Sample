@@ -1,0 +1,28 @@
+@import "variables";
+@import "base";
+
+html,body{
+    font-family: Verdana,Helvetica, sans-serif !important;
+    font-size: 13px !important;
+}
+.appHeader{background: #049fd9;color: #fff;font-size: 2em;padding: 0.5em;text-align: center;}
+.subHeader{color: lightseagreen;}
+.applnFooter{background: #049fd9;color: #fff;padding: 5px;text-align: center;}
+.mainContent{font-size: 14px;
+    button{margin-right: 0.5em;}
+    .row{padding-left: 15px;padding-right: 15px;
+        .activityLogger{background: #efefef;border: 2px inset #dedede;font-size: 13px;padding: 10px;
+            div{color: brown;
+                &.logs{color: #343434;font-weight: bold;margin-top: 0.8em;}
+            }
+            .subsCallback{color: #049fd9;
+                strong{color: black;}
+            }
+            .subsMsg{color: navy;}
+        }
+    }
+    .regPubSubComp{
+        h4{color: lightseagreen;display: inline-block;}
+        .btn-info{margin-left: 1em;}
+    }
+}
